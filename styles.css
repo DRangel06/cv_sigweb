@@ -1,0 +1,108 @@
+/* 11/05/2023 */
+/* Diego Alejandro Rangel Blanco - 1826381 */
+/* Taller 1 - SIGWEB */
+/* Este código CSS establece los estilos para mi página web. */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left,
+.right {
+    padding: 20px;
+}
+
+.left {
+    width: 35%;
+    background-color: #9F9AFF;
+    position: relative;
+}
+
+.right {
+    width: 65%;
+}
+
+.profile-picture-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+.profile-picture {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #1B263B;
+    margin: 20px 0;
+}
+
+i {
+    margin-right: 10px;
+}
+
+#contact-btn {
+    display: block;
+    margin-top: 20px;
+    background-color: #1B263B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+ul {
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+ol {
+	list-style-type: decimal;
+	padding-left: 20px;
+}
